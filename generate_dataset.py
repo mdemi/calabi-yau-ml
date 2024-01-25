@@ -1,3 +1,8 @@
+# Generate Dataset
+# This script generates a dataset of Calabi-Yau (CY) hypersurfaces in toric varieties using CYTools.
+# We use the GKZ vector corresponding to each triangulation as features and the log of the CY volume
+# at the tip of the stretched Kahler cone as labels.
+
 from cytools import fetch_polytopes
 import numpy as np
 import os
