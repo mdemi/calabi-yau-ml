@@ -3,6 +3,8 @@ This repo contains a simplified implementation of the supervised ML algorithm de
 
 In summary, we first generate a dataset of Calabi-Yau (CY) hypersurfaces in toric varieties using CYTools (https://cy.tools/). We then use the GKZ vectors corresponding to each triangulation (see paper for a definition and more information) as features and train a neural network to predict the volume of the CY at the tip of the stretched Kahler cone.
 
+![image](https://github.com/mdemi/calabi-yau-ml/assets/34105945/9763dbcf-1b41-4cc5-abcb-ad66592613b9)
+
 ## Model
 The deep learning model is a fully connected neural network with residual connections that is initialized to implement the identity operation prior to training. For more information, see https://arxiv.org/abs/2003.04887.
 
